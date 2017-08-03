@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman 1.0</title>
+</head>
+
+		<!-- <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css"> -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		
+
+<body>
+
+	<div class="jumbotron">
+		<h1>Welcome to a Capital Guessing Game!</h1>
+		<p>Press a letter key to begin spelling the name of a state capital.</p>
+	</div>
+
+	<div class="container" id="maincontainter">
+
+		
+		<div class="row" id="mainrow">
+
+			<div class="col-xs-7 col-xs-offset-1 col-md-6" id="leftcolumn">	
+				<h3>Current State Capital:</h3>
+				<div class="smallcontainer">
+					<div class="well well-lg" id="capitalWell"></div>
+				</div><!--end of smallcontainter-->
+				<h3>Letters Already Guessed</h3>
+				<div class="smallcontainer">
+					<div class="well well-lg" id="guessedletters"></div>
+				</div><!--end of smallcontainter-->
+			</div><!--end of rightcolumn-->
+
+			<div class="col-xs-2 col-sm-4" id="rightcolumn">
+				<h4>Guesses Remaining:</h4>
+					<div class="smallcontainer">
+						<div class="well well-sm" id="guessesleft">9</div>
+					</div><!--end of smallcontainer-->
+					<img src="assets/images/US.png" width="98%">
+			</div><!--end of leftcomlumn-->
+		
+		</div><!--end of mainrow-->
+		<br><br><br><br><br>
+	</div><!--end of maincontainter-->
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
